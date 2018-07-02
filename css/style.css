@@ -1,0 +1,31 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.element {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 225px 0px;
+}
+
+.element>p {
+  flex: 1;
+  color: white;
+  padding: 0px 10px;
+  font-size: 25px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  word-spacing: 6px;
+}
+
+html {
+  background: url(https://picsum.photos/1200/800) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
